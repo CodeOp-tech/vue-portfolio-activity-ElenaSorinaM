@@ -1,8 +1,8 @@
 <template>
-  <div>
+  <div class="form-div">
     Title
-    <input v-model="title" />
-    <button @click="handleSubmit">SUBMIT</button>
+    <input class="input-form" v-model="title" />
+    <button class="submit-button" @click="handleSubmit">SUBMIT</button>
   </div>
 </template>
 
@@ -28,4 +28,6 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+
+</style>
